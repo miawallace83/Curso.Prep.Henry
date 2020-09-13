@@ -34,7 +34,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array[array.length] = elemento;
+  array.push(elemento);
   return array;
 }
 
@@ -82,14 +82,20 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros(resultadosTest) / resultadosTest.length;
+  return agregarNumeros(resultadosTest) / resultadosTest.length; //No entiendo por que estoy tomando el array anterior, de donde sale eso?
 }
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  return Math.max.apply(numeros);
+   var masGrande = numeros[0];
+    for(var i = 0; i < numeros.length; i++) {
+      if(numeros[i] > masGrande) {
+        masGrande = numeros[i];
+      }
+    }
+    return masGrande;
 }
 
 function multiplicarArgumentos() {
@@ -97,6 +103,12 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
+  if(arguments.length < 1) return 0;
+  var multiplicarA = 1;
+    for(var i = 0; i < arguments.length; i++) {
+      multiplicarA = multiplicarA * arguments[i];
+    }
+    return multiplicarA;
 }
 
 // No modificar nada debajo de esta línea
