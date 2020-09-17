@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+    color:;
+    font-family: 'Bebas Neue', cursive;
+    }
+
+    h3 {
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    img {
+    width: 400px;
+    }
+           
+    .divClass1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px;
+    }
+
+    .divClass {
+    text-align: center;
+    margin: 0 auto;
+    background-color: turquoise;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px lightblue;
+    padding-top: 35px:
+    }
+
+    .divClass h1 {
+    padding-top: 15px;
+    }
+
+    .divClass h3 {
+        padding-bottom: 10px;
+    }
+
+    .divClass1 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+    }
+    
+    
+    ul {
+    list-style: none;
+    padding-bottom: 10px;
+    }
+
+    a {
+    text-decoration: none;
+    }
+
+    a :hover {
+    color: violet;
+    }
+
+    .final {
+    text-align: center;
+    margin: 0 auto;
+    background-color: deeppink;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px lightblue;
+    font-size: 25px;
+    padding: 20px 5px 20px 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    }
+
+       

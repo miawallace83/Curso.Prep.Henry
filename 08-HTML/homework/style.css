@@ -1,0 +1,42 @@
+
+    body {
+    background-image: url(https://nolabuenosaires.com/assets/images/menu1.jpg);
+    }
+
+    h1 {
+    color: deeppink;
+    }
+
+    img {
+    width: 400px;
+    }
+
+
+    .divClass {
+    text-align: center;
+    margin: 0 auto;
+    color: greenyellow;
+    }
+
+    #thirdDiv {
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    background-color: aquamarine;
+    padding: 50px;
+    border: 30px;
+    border-color: darkorchid;
+    margin: 0 auto;
+    }
+
+    ul {
+    list-style: none;
+    }
+    
+    #spanId {
+    font-size: 18px;
+    margin: 50px;
+    }
+
+ 
+
