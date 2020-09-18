@@ -1,0 +1,2 @@
+Un callback es una funcion que es parámetro de otra función para que cuando termine de ejecutarse llame a tu callback.
+Algo asi como una adentro de la otra.

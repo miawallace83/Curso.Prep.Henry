@@ -1,0 +1,3 @@
+* Prototype: Es una manera de establecer un metodo una vez y dar acceso a cada objeto de la clase. Todos los objetos tienen prototype.
+
+* Constructors: son funciones especiales para definir objetos y sus caracteristicas. Sirven para crear los objetos que necesite adjuntando elementos y funciones.
